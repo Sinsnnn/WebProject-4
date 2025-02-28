@@ -1,7 +1,7 @@
 # 项目组成员
-- 组长: @Sinsnnn
-- 成员1: @GFAlpha
-- 成员2: @
-- 成员3: @
-- 成员4: @
-- 成员5: @
+- 组长王昕玫: @Sinsnnn
+- 成员余剑辉: @GFAlpha 
+- 成员罗汇超: @huichaoluo
+- 成员王钰瀚: @Gachikoi
+- 成员易向威: @lizhouhx
+- 成员梁宇泽: @YZLiang228
