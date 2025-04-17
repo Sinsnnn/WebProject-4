@@ -1,0 +1,60 @@
+在教育平台中，系统的核心内容围绕以下几个实体展开：用户（User）、课程（Course）、课程资料（CourseMaterial）、作业（Assignment）、提交（Submission）、进度报告（ProgressReport）。以下为主要内容结构与其属性之间的关系。
+1️. 用户（User）
+用户是系统的核心对象，包含三类子类型：
+- 学生（Student）
+- 教师（Teacher）
+- 管理员（Admin）
+每个用户都拥有基本信息内容字段：
+- id: 用户唯一标识
+- name: 用户名
+- phone: 联系方式
+- password: 登录凭证
+不同类型的用户还拥有特有字段：
+- 学生有 studentId，可参与课程、提交作业、查看进度
+- 教师有 teacherId，可创建课程、布置作业、评分
+- 管理员有 adminId，可管理用户、审核课程
+
+2. 课程（Course）
+课程是教学的核心资源，课程内容包含：
+- courseId: 唯一标识
+- title: 课程标题
+- description: 简要介绍
+- category: 分类
+- createDate: 创建时间
+- status: 状态（如待审核/已发布）
+一门课程可能关联多个内容类型：
+- 包含多个课程资料（CourseMaterial）
+- 包含多个作业（Assignment）
+- 多个学生加入学习（多对多关系）
+
+3. 课程资料（CourseMaterial）
+课程资料是教师发布的教学内容：
+- materialId: 唯一标识
+- type: 类型（视频、文档等）
+- content: 内容文件（以二进制形式存储）
+- uploadDate: 上传时间
+课程与资料是一对多的关系。
+
+4. 作业（Assignment）
+每个课程可关联多个作业，作业内容包含：
+- assignmentId: 作业唯一编号
+- title: 标题
+- description: 内容描述
+- dueDate: 截止时间
+- rubric: 评分标准说明
+
+5. 提交（Submission）
+学生提交的作业，内容包括：
+- submissionId: 唯一编号
+- content: 提交内容（二进制形式）
+- submitTime: 提交时间
+- grade: 成绩分数
+- feedback: 教师评语
+提交和作业是多对一，学生可以有多个提交，每份提交只属于一个作业。
+
+6. 进度报告（ProgressReport）
+每个学生可以拥有多个进度报告，用于反映学习状态，这些报告由教师生成：
+- reportId: 报告唯一编号
+- completionRate: 完成度百分比
+- testScores: 分数映射（如各章节测试）
+- weakAreas: 学习薄弱点列表
