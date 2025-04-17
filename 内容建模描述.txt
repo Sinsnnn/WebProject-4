@@ -22,6 +22,7 @@
 - category: 分类
 - createDate: 创建时间
 - status: 状态（如待审核/已发布）
+并支持对课程内容进行增（addContent）删(removeContent)
 一门课程可能关联多个内容类型：
 - 包含多个课程资料（CourseMaterial）
 - 包含多个作业（Assignment）
