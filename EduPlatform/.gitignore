@@ -1,0 +1,8 @@
+*.class
+*.idea/
+*.iml
+**/node_modules
+target/
+*.log
+.vscode/
+.DS_Store
