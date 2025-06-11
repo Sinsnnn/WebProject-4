@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cd49427-3fb5-4e6f-a948-022db66058b7" name="更改" comment="update file">
+      <change afterPath="$PROJECT_DIR$/team tasks/task-7、8（打开ppt可查看/安全与性能分析报告.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT_PROPOSAL.md" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task1-PROJECT_PROPOSAL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2-REQUIREMENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task2-REQUIREMENTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3-在线学习平台需求规格说明书.docx" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task3-在线学习平台需求规格说明书.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/MVC架构设计.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/MVC架构设计.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/UML_content.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/UML_content.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/web工程4组中期展示.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/web工程4组中期展示.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容建模描述.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容建模描述.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容模型动态建模学生.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模学生.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容模型动态建模教师.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模教师.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容模型动态建模管理员.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模管理员.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/功能需求类图.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/功能需求类图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/功能需求类图描述.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/功能需求类图描述.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/多层架构设计.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/多层架构设计.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/展示模型动态建模学生.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模学生.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/展示模型动态建模教师.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模教师.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/展示模型动态建模管理员.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模管理员.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/超文本部分简介.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/超文本部分简介.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/超链接跳转关系类图.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/超链接跳转关系类图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/适应性.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/适应性.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4-6、ppt/适应性.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/适应性.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +53,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2yN2TCBnz7s7Hhow4EOqN9q46Hy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -42,10 +67,11 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/用户/wxm/Desktop/伪代码们/WebProject-4/EduPlatform",
+    "last_opened_file_path": "D:/用户/wxm/Desktop/伪代码们/WebProject-4/team tasks/task-7、8（打开ppt可查看",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,10 +90,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks\task-7、8（打开ppt可查看" />
+      <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform\vue" />
+      <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform\springboot" />
       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform" />
       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform\.idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks\task4-6(打开ppt可查看\图表" />
+      <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks" />
       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform\.idea" />
       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform" />
     </key>
@@ -89,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1749660715762</updated>
       <workItem from="1749660716973" duration="987000" />
-      <workItem from="1749661759489" duration="954000" />
+      <workItem from="1749661759489" duration="1577000" />
+      <workItem from="1749666427632" duration="1510000" />
     </task>
     <task id="LOCAL-00001" summary="update detail">
       <option name="closed" value="true" />
@@ -107,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749662059044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update file">
+      <option name="closed" value="true" />
+      <created>1749662979150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749662979150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update file">
+      <option name="closed" value="true" />
+      <created>1749663000072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749663000072</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
