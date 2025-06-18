@@ -6,6 +6,36 @@
 - 成员易向威: @lizhouhx
 - 成员梁宇泽: @YZLiang228
 
+# 在线学习平台环境配置与安装指南
+1. 开发环境配置
+软件需求
+集成开发环境（IDE）: Visual Studio Code 1.99 或更高版本
+Java 开发工具包（JDK）: JDK 17
+数据库: MySQL 5.7 或更高版本
+服务器端 JavaScript 运行环境: Node.js 20.18 或更高版本
+构建工具: Maven 3.9.9 或更高版本
+2. 运行环境配置
+软件需求
+操作系统: Windows 11
+Web 服务器: Apache Tomcat 9.0 或更高版本
+应用服务器: Node.js 20.18 或更高版本
+3. 初始化脚本
+数据库初始化脚本 “EduPlatform/springboot/OnlineEducation.sql”
+环境变量初始化脚本（Windows）
+@echo off
+set JAVA_HOME=C:\Program Files\Java\jdk-17
+set NODE_PATH=C:\Program Files\nodejs\
+set MAVEN_HOME=C:\Program Files\Apache\maven
+set CATALINA_HOME=C:\Program Files\Apache\Tomcat
+4. 配置文件说明
+spring boot配置文件 “EduPlatform/springboot/src/main/resources/application.yml”
+Node.js 配置文件 "package-lock.json”
+5. 打包安装步骤
+5.1 在项目根目录下运行以下命令生成可执行 JAR 文件：mvn clean package 生成的 JAR 文件位于 target 目录下
+5.2 将生成的 JAR 文件复制到 Tomcat 的 webapps 目录下。
+启动 Tomcat 服务器： catalina.sh start
+访问 http://localhost:9090 确认平台是否正常运行。
+
 # 操作使用说明
 1. 注册与登录
    1.1 注册
@@ -68,8 +98,7 @@
 在“讨论园地”部分，管理员可以查看所有人发布的评论。
 确保评论内容的正当性，不违反公序良俗。
 评论进行管理，删除操作。
-
-7. 系统要求
+6. 系统要求
 确保您的设备满足以下软件环境要求：
 集成开发环境（IDE）：Vscode 1.99
 JDK-17
