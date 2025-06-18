@@ -1,0 +1,164 @@
+Index: EduPlatform/springboot/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port: 9090\r\n\r\n# 数据库配置\r\nspring:\r\n  datasource:\r\n    driver-class-name: com.mysql.cj.jdbc.Driver\r\n    username: root\r\n    password: 123456\r\n    url: jdbc:mysql://localhost:3306/OnlineEducation?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true\r\n  servlet:\r\n    multipart:\r\n      max-file-size: 100MB\r\n      max-request-size: 100MB\r\n\r\n# 配置mybatis实体和xml映射\r\nmybatis:\r\n  configuration:\r\n    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl\r\n    map-underscore-to-camel-case: true\r\n  mapper-locations: classpath:mapper/*.xml\r\n\r\nfileBaseUrl: http://localhost:${server.port}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EduPlatform/springboot/src/main/resources/application.yml b/EduPlatform/springboot/src/main/resources/application.yml
+--- a/EduPlatform/springboot/src/main/resources/application.yml	(revision 88e7cd98845c29da600b4cdc24e1370903158da3)
++++ b/EduPlatform/springboot/src/main/resources/application.yml	(date 1750224525895)
+@@ -6,7 +6,7 @@
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     username: root
+-    password: 123456
++    password: 1234
+     url: jdbc:mysql://localhost:3306/OnlineEducation?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+   servlet:
+     multipart:
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0cd49427-3fb5-4e6f-a948-022db66058b7\" name=\"更改\" comment=\"update file\">\r\n      <change afterPath=\"$PROJECT_DIR$/team tasks/task-7、8（打开ppt可查看/安全与性能分析报告.pdf\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/PROJECT_PROPOSAL.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task1-PROJECT_PROPOSAL.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task2-REQUIREMENTS.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task2-REQUIREMENTS.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task3-在线学习平台需求规格说明书.docx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task3-在线学习平台需求规格说明书.docx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/MVC架构设计.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/MVC架构设计.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/UML_content.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/UML_content.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/web工程4组中期展示.pptx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/web工程4组中期展示.pptx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/内容建模描述.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容建模描述.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/内容模型动态建模学生.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模学生.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/内容模型动态建模教师.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模教师.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/内容模型动态建模管理员.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模管理员.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/功能需求类图.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/功能需求类图.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/功能需求类图描述.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/功能需求类图描述.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/多层架构设计.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/多层架构设计.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/展示模型动态建模学生.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模学生.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/展示模型动态建模教师.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模教师.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/展示模型动态建模管理员.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模管理员.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/超文本部分简介.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/超文本部分简介.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/超链接跳转关系类图.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/超链接跳转关系类图.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/适应性.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/适应性.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/task4-6、ppt/适应性.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/适应性.txt\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Sinsnnn&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Sinsnnn/WebProject-4.git&quot;,\r\n    &quot;accountId&quot;: &quot;29ba8d3e-aca8-43c7-a209-145bea2748ef&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2yN2TCBnz7s7Hhow4EOqN9q46Hy\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"D:/用户/wxm/Desktop/伪代码们/WebProject-4/team tasks/task-7、8（打开ppt可查看\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"模块\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"mysql\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\team tasks\\task-7、8（打开ppt可查看\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\EduPlatform\\vue\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\EduPlatform\\springboot\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\EduPlatform\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\EduPlatform\\.idea\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\team tasks\\task4-6(打开ppt可查看\\图表\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\team tasks\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\EduPlatform\\.idea\" />\r\n      <recent name=\"D:\\用户\\wxm\\Desktop\\伪代码们\\WebProject-4\\EduPlatform\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"0cd49427-3fb5-4e6f-a948-022db66058b7\" name=\"更改\" comment=\"\" />\r\n      <created>1749660715762</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1749660715762</updated>\r\n      <workItem from=\"1749660716973\" duration=\"987000\" />\r\n      <workItem from=\"1749661759489\" duration=\"1577000\" />\r\n      <workItem from=\"1749666427632\" duration=\"1510000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"update detail\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749661798927</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749661798927</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"update file\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749662059044</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749662059044</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"update file\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749662979150</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749662979150</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"update file\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749663000072</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749663000072</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Update README.md\" />\r\n    <MESSAGE value=\"update detail\" />\r\n    <MESSAGE value=\"update file\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update file\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 88e7cd98845c29da600b4cdc24e1370903158da3)
++++ b/.idea/workspace.xml	(date 1750224893944)
+@@ -4,30 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0cd49427-3fb5-4e6f-a948-022db66058b7" name="更改" comment="update file">
+-      <change afterPath="$PROJECT_DIR$/team tasks/task-7、8（打开ppt可查看/安全与性能分析报告.pdf" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
++    <list default="true" id="0cd49427-3fb5-4e6f-a948-022db66058b7" name="更改" comment="update tasks">
++      <change afterPath="$PROJECT_DIR$/team tasks/task-7、8（打开ppt可查看/web工程4组展示.pptx" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PROJECT_PROPOSAL.md" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task1-PROJECT_PROPOSAL.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task2-REQUIREMENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task2-REQUIREMENTS.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task3-在线学习平台需求规格说明书.docx" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task3-在线学习平台需求规格说明书.docx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/MVC架构设计.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/MVC架构设计.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/UML_content.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/UML_content.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/web工程4组中期展示.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/web工程4组中期展示.pptx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容建模描述.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容建模描述.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容模型动态建模学生.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模学生.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容模型动态建模教师.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模教师.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/内容模型动态建模管理员.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/内容模型动态建模管理员.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/功能需求类图.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/功能需求类图.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/功能需求类图描述.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/功能需求类图描述.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/多层架构设计.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/多层架构设计.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/展示模型动态建模学生.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模学生.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/展示模型动态建模教师.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模教师.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/展示模型动态建模管理员.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/展示模型动态建模管理员.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/超文本部分简介.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/超文本部分简介.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/超链接跳转关系类图.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/超链接跳转关系类图.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/适应性.png" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/适应性.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/task4-6、ppt/适应性.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team tasks/task4-6(打开ppt可查看/图表/适应性.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EduPlatform/springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EduPlatform/springboot/src/main/resources/application.yml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -62,32 +42,32 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "D:/用户/wxm/Desktop/伪代码们/WebProject-4/team tasks/task-7、8（打开ppt可查看",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "模块",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.2",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/用户/wxm/Desktop/伪代码们/WebProject-4/team tasks/task-7、8（打开ppt可查看&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+-  "keyToStringList": {
+-    "DatabaseDriversLRU": [
+-      "mysql"
++  &quot;keyToStringList&quot;: {
++    &quot;DatabaseDriversLRU&quot;: [
++      &quot;mysql&quot;
+     ]
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks\task-7、8（打开ppt可查看" />
+@@ -97,6 +77,7 @@
+       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform\.idea" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks\task-7、8（打开ppt可查看" />
+       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks\task4-6(打开ppt可查看\图表" />
+       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\team tasks" />
+       <recent name="D:\用户\wxm\Desktop\伪代码们\WebProject-4\EduPlatform\.idea" />
+@@ -121,7 +102,8 @@
+       <updated>1749660715762</updated>
+       <workItem from="1749660716973" duration="987000" />
+       <workItem from="1749661759489" duration="1577000" />
+-      <workItem from="1749666427632" duration="1510000" />
++      <workItem from="1749666427632" duration="1629000" />
++      <workItem from="1750222229188" duration="2150000" />
+     </task>
+     <task id="LOCAL-00001" summary="update detail">
+       <option name="closed" value="true" />
+@@ -155,7 +137,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1749663000072</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="update tasks">
++      <option name="closed" value="true" />
++      <created>1749668018407</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1749668018407</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -188,6 +178,7 @@
+     <MESSAGE value="Update README.md" />
+     <MESSAGE value="update detail" />
+     <MESSAGE value="update file" />
+-    <option name="LAST_COMMIT_MESSAGE" value="update file" />
++    <MESSAGE value="update tasks" />
++    <option name="LAST_COMMIT_MESSAGE" value="update tasks" />
+   </component>
+ </project>
+\ No newline at end of file
