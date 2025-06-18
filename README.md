@@ -29,7 +29,7 @@ set MAVEN_HOME=C:\Program Files\Apache\maven
 set CATALINA_HOME=C:\Program Files\Apache\Tomcat
 4. 配置文件说明
 spring boot配置文件 “EduPlatform/springboot/src/main/resources/application.yml”
-Node.js 配置文件 "package-lock.json”
+Node.js 配置文件 "EduPlatform/vue/package.json”
 5. 打包安装步骤
 5.1 在项目根目录下运行以下命令生成可执行 JAR 文件：mvn clean package 生成的 JAR 文件位于 target 目录下
 5.2 将生成的 JAR 文件复制到 Tomcat 的 webapps 目录下。
